@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600,700");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --kwindoo-434-font-family: "Roboto", Helvetica;
+  --kwindoo-434-font-size: 20px;
+  --kwindoo-434-font-style: normal;
+  --kwindoo-434-font-weight: 700;
+  --kwindoo-434-letter-spacing: 0.4px;
+  --kwindoo-434-line-height: normal;
+  --kwindoo-body-font-family: "Roboto", Helvetica;
+  --kwindoo-body-font-size: 16px;
+  --kwindoo-body-font-style: normal;
+  --kwindoo-body-font-weight: 400;
+  --kwindoo-body-letter-spacing: 0px;
+  --kwindoo-body-line-height: normal;
+  --kwindoo-botond-kristof-font-family: "Roboto", Helvetica;
+  --kwindoo-botond-kristof-font-size: 21px;
+  --kwindoo-botond-kristof-font-style: normal;
+  --kwindoo-botond-kristof-font-weight: 400;
+  --kwindoo-botond-kristof-letter-spacing: -0.21px;
+  --kwindoo-botond-kristof-line-height: normal;
+  --kwindoo-card-header-font-family: "Roboto", Helvetica;
+  --kwindoo-card-header-font-size: 23px;
+  --kwindoo-card-header-font-style: normal;
+  --kwindoo-card-header-font-weight: 400;
+  --kwindoo-card-header-letter-spacing: 0.46px;
+  --kwindoo-card-header-line-height: normal;
+  --kwindoo-header-font-family: "Roboto", Helvetica;
+  --kwindoo-header-font-size: 16px;
+  --kwindoo-header-font-style: normal;
+  --kwindoo-header-font-weight: 700;
+  --kwindoo-header-letter-spacing: 0px;
+  --kwindoo-header-line-height: normal;
+  --kwindoo-highlight-font-family: "Roboto", Helvetica;
+  --kwindoo-highlight-font-size: 16px;
+  --kwindoo-highlight-font-style: normal;
+  --kwindoo-highlight-font-weight: 700;
+  --kwindoo-highlight-letter-spacing: 0px;
+  --kwindoo-highlight-line-height: normal;
+  --kwindoo-km-font-family: "Roboto", Helvetica;
+  --kwindoo-km-font-size: 16px;
+  --kwindoo-km-font-style: normal;
+  --kwindoo-km-font-weight: 400;
+  --kwindoo-km-letter-spacing: 0.48px;
+  --kwindoo-km-line-height: normal;
+  --kwindoo-label-small-font-family: "Roboto", Helvetica;
+  --kwindoo-label-small-font-size: 11px;
+  --kwindoo-label-small-font-style: normal;
+  --kwindoo-label-small-font-weight: 400;
+  --kwindoo-label-small-letter-spacing: 0.22px;
+  --kwindoo-label-small-line-height: normal;
+  --kwindoo-label1-font-family: "Roboto", Helvetica;
+  --kwindoo-label1-font-size: 16px;
+  --kwindoo-label1-font-style: normal;
+  --kwindoo-label1-font-weight: 400;
+  --kwindoo-label1-letter-spacing: 0.48px;
+  --kwindoo-label1-line-height: normal;
+  --kwindoo-navigation-text-font-family: "Roboto", Helvetica;
+  --kwindoo-navigation-text-font-size: 14px;
+  --kwindoo-navigation-text-font-style: normal;
+  --kwindoo-navigation-text-font-weight: 400;
+  --kwindoo-navigation-text-letter-spacing: 0px;
+  --kwindoo-navigation-text-line-height: normal;
+  --kwindoo-tab-font-family: "Roboto", Helvetica;
+  --kwindoo-tab-font-size: 19px;
+  --kwindoo-tab-font-style: normal;
+  --kwindoo-tab-font-weight: 600;
+  --kwindoo-tab-letter-spacing: -0.57px;
+  --kwindoo-tab-line-height: normal;
+  --kwindoo-TOTAL-DISTANCE-font-family: "Roboto", Helvetica;
+  --kwindoo-TOTAL-DISTANCE-font-size: 14px;
+  --kwindoo-TOTAL-DISTANCE-font-style: normal;
+  --kwindoo-TOTAL-DISTANCE-font-weight: 600;
+  --kwindoo-TOTAL-DISTANCE-letter-spacing: -0.14000000000000004px;
+  --kwindoo-TOTAL-DISTANCE-line-height: normal;
+}
+
+/* Mobile-first responsive design */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+#app {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
+
+/* Mobile optimizations */
+@media (max-width: 480px) {
+  #app {
+    padding: 0;
+  }
+}
+
+/* Smooth scrolling for mobile */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+/* Touch-friendly button sizes */
+button, .touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}

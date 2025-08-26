@@ -1,0 +1,167 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --kwindoo-434-font-family: "Roboto", Helvetica;
+  --kwindoo-434-font-size: 20px;
+  --kwindoo-434-font-style: normal;
+  --kwindoo-434-font-weight: 700;
+  --kwindoo-434-letter-spacing: 0.4px;
+  --kwindoo-434-line-height: normal;
+  --kwindoo-body-font-family: "Roboto", Helvetica;
+  --kwindoo-body-font-size: 16px;
+  --kwindoo-body-font-style: normal;
+  --kwindoo-body-font-weight: 400;
+  --kwindoo-body-letter-spacing: 0px;
+  --kwindoo-body-line-height: normal;
+  --kwindoo-botond-kristof-font-family: "Roboto", Helvetica;
+  --kwindoo-botond-kristof-font-size: 21px;
+  --kwindoo-botond-kristof-font-style: normal;
+  --kwindoo-botond-kristof-font-weight: 400;
+  --kwindoo-botond-kristof-letter-spacing: -0.21px;
+  --kwindoo-botond-kristof-line-height: normal;
+  --kwindoo-card-header-font-family: "Roboto", Helvetica;
+  --kwindoo-card-header-font-size: 23px;
+  --kwindoo-card-header-font-style: normal;
+  --kwindoo-card-header-font-weight: 400;
+  --kwindoo-card-header-letter-spacing: 0.46px;
+  --kwindoo-card-header-line-height: normal;
+  --kwindoo-header-font-family: "Roboto", Helvetica;
+  --kwindoo-header-font-size: 16px;
+  --kwindoo-header-font-style: normal;
+  --kwindoo-header-font-weight: 700;
+  --kwindoo-header-letter-spacing: 0px;
+  --kwindoo-header-line-height: normal;
+  --kwindoo-highlight-font-family: "Roboto", Helvetica;
+  --kwindoo-highlight-font-size: 16px;
+  --kwindoo-highlight-font-style: normal;
+  --kwindoo-highlight-font-weight: 700;
+  --kwindoo-highlight-letter-spacing: 0px;
+  --kwindoo-highlight-line-height: normal;
+  --kwindoo-km-font-family: "Roboto", Helvetica;
+  --kwindoo-km-font-size: 16px;
+  --kwindoo-km-font-style: normal;
+  --kwindoo-km-font-weight: 400;
+  --kwindoo-km-letter-spacing: 0.48px;
+  --kwindoo-km-line-height: normal;
+  --kwindoo-label-small-font-family: "Roboto", Helvetica;
+  --kwindoo-label-small-font-size: 11px;
+  --kwindoo-label-small-font-style: normal;
+  --kwindoo-label-small-font-weight: 400;
+  --kwindoo-label-small-letter-spacing: 0.22px;
+  --kwindoo-label-small-line-height: normal;
+  --kwindoo-label1-font-family: "Roboto", Helvetica;
+  --kwindoo-label1-font-size: 16px;
+  --kwindoo-label1-font-style: normal;
+  --kwindoo-label1-font-weight: 400;
+  --kwindoo-label1-letter-spacing: 0.48px;
+  --kwindoo-label1-line-height: normal;
+  --kwindoo-navigation-text-font-family: "Roboto", Helvetica;
+  --kwindoo-navigation-text-font-size: 14px;
+  --kwindoo-navigation-text-font-style: normal;
+  --kwindoo-navigation-text-font-weight: 400;
+  --kwindoo-navigation-text-letter-spacing: 0px;
+  --kwindoo-navigation-text-line-height: normal;
+  --kwindoo-tab-font-family: "Roboto", Helvetica;
+  --kwindoo-tab-font-size: 19px;
+  --kwindoo-tab-font-style: normal;
+  --kwindoo-tab-font-weight: 600;
+  --kwindoo-tab-letter-spacing: -0.57px;
+  --kwindoo-tab-line-height: normal;
+  --kwindoo-TOTAL-DISTANCE-font-family: "Roboto", Helvetica;
+  --kwindoo-TOTAL-DISTANCE-font-size: 14px;
+  --kwindoo-TOTAL-DISTANCE-font-style: normal;
+  --kwindoo-TOTAL-DISTANCE-font-weight: 600;
+  --kwindoo-TOTAL-DISTANCE-letter-spacing: -0.14000000000000004px;
+  --kwindoo-TOTAL-DISTANCE-line-height: normal;
+  --m3syslighton-surface: rgba(29, 27, 32, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
